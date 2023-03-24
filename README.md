@@ -1,4 +1,5 @@
 # Simple Blog With CRUD operation, Login & Register Feature - MERN STACK
+Here is the deployed project https://salekin-simple-blog-frontend.onrender.com/blogs
 
 *To run the project you need to add environment respective variables*
 
