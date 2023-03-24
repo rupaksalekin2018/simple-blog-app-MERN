@@ -1,4 +1,4 @@
-# Simple Blog With CRUD operation, Login & Register Feature
+# Simple Blog With CRUD operation, Login & Register Feature - MERN STACK
 
 *To run the project you need to add environment respective variables*
 
