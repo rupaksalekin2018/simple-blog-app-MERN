@@ -16,4 +16,4 @@ Then you need to run
 ## The command to run the program is "npm run dev"
 **concurrently is used so that backend and frontend can run simultaneously.** 
 
-For Deployment we are going to use cyclic.sh 
+For Deployment we are going to use render 
