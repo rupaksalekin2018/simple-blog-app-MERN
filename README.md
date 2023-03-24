@@ -1,2 +1,2 @@
-# simple-blog-app-MERN
+# Blog-App
  
