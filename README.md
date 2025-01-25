@@ -1,19 +1,44 @@
 # Simple Blog With CRUD operation, Login & Register Feature - MERN STACK
 Here is the deployed project https://salekin-simple-blog-frontend.onrender.com
 
-*To run the project you need to add environment respective variables*
+# Simple Blog Application - MERN Stack
 
->PORT=8080
-DEV_MODE=development
-MONGO_URL="Your MongoDB Connection String"
+![MERN Stack](https://img.shields.io/badge/MERN-Full%20Stack-green?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 
-Then you need to run 
+A full-stack blog application built with the MERN stack (MongoDB, Express.js, React, and Node.js) that allows users to create, read, update, and delete blog posts. Includes user authentication, rich text editing, and image uploads.
 
-**"npm install"**
+## Features
 
- for both backend and client side for node modules.
+- **User Authentication**: Secure JWT-based registration and login system.
+- **CRUD Operations**: Create, read, update, and delete blog posts.
+- **Rich Text Editor**: Integrated with React Quill for enhanced content creation.
+- **Image Uploads**: Supports image uploads for blog posts using Multer.
+- **Responsive UI**: Clean and modern design with React.js and Tailwind CSS.
+- **Search Functionality**: Filter blog posts by keywords or categories.
+- **RESTful API**: Backend built with Express.js and Node.js for scalability.
 
-## The command to run the program is "npm run dev"
-**concurrently is used so that backend and frontend can run simultaneously.** 
+## Live Demo
 
-For Deployment we are going to use render 
+Explore the live demo [here](https://salekin-simple-blog-frontend.onrender.com) (replace with your deployed link).
+
+## Technologies Used
+
+- **Frontend**: React.js, Tailwind CSS, Axios, React Quill, React Router
+- **Backend**: Node.js, Express.js, MongoDB, Mongoose, JWT, Bcrypt, Multer
+- **Tools**: Postman, Git, GitHub
+
+## Installation
+
+Follow these steps to run the project locally:
+
+### Prerequisites
+- Node.js (v18+)
+- MongoDB Atlas account or local MongoDB instance
+- Git
+
+### Steps
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/rupaksalekin2018/simple-blog-app-MERN.git
+   cd simple-blog-app-MERN
