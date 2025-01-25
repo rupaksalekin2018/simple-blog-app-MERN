@@ -40,3 +40,40 @@ Follow these steps to run the project locally:
    ```bash
    git clone https://github.com/rupaksalekin2018/simple-blog-app-MERN.git
    cd simple-blog-app-MERN
+
+### install dependencies
+# Install server dependencies
+cd server
+npm install
+
+# Install client dependencies for node server
+cd server
+npm install
+
+# Install client dependencies for client server
+cd ../client
+npm install
+
+# Create a .env file in the server directory Add these:
+    MONGO_URI=your_mongodb_connection_string
+    JWT_SECRET=your_jwt_secret_key
+    PORT=5000
+
+ # Create a .env file in the client directory:
+    REACT_APP_API_URL=http://localhost:5000
+
+Start the Application
+# Run the server (from /server directory)
+npm start
+
+# Run the client (from /client directory)
+npm start   
+
+API Endpoints
+Method	Endpoint	Description
+POST	/api/auth/register	Register a new user
+POST	/api/auth/login	Authenticate a user
+GET	/api/posts	Fetch all blog posts
+POST	/api/posts	Create a new blog post
+PUT	/api/posts/:id 	Update a blog post
+DELETE	/api/posts/:id 	Delete a blog post
