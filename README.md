@@ -71,9 +71,9 @@ npm start
 
 API Endpoints
 Method	Endpoint	Description
-POST	/api/auth/register	Register a new user
-POST	/api/auth/login	Authenticate a user
-GET	/api/posts	Fetch all blog posts
-POST	/api/posts	Create a new blog post
-PUT	/api/posts/:id 	Update a blog post
-DELETE	/api/posts/:id 	Delete a blog post
+- POST	/api/auth/register	Register a new user
+- POST	/api/auth/login	Authenticate a user
+- GET	/api/posts	Fetch all blog posts
+- POST	/api/posts	Create a new blog post
+- PUT	/api/posts/:id 	Update a blog post
+- DELETE	/api/posts/:id 	Delete a blog post
