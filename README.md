@@ -1,8 +1,6 @@
 # Simple Blog With CRUD operation, Login & Register Feature - MERN STACK
 Here is the deployed project https://salekin-simple-blog-frontend.onrender.com
 
-# Simple Blog Application - MERN Stack
-
 ![MERN Stack](https://img.shields.io/badge/MERN-Full%20Stack-green?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 
